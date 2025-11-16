@@ -1,9 +1,6 @@
-# python_for_mlops
-Python for MLOps: best practices, examples, production patterns.
-
 # Python for MLOps — Course
 
-A practical course for MLOps engineers focusing on production-grade Python, ML services, pipelines, observability, testing, and performance.
+Python for MLOps: best practices, examples, production patterns.
 
 ## Course Goals
 - Write clean, reliable production Python code.  
