@@ -1,4 +1,4 @@
-# Python for MLOps — Course
+# Production-Grade Python for MLOps — Course
 
 Python for MLOps: best practices, examples, production patterns.
 
