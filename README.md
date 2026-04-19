@@ -1,16 +1,20 @@
 # Production-Grade Python for MLOps — Course
 
-О чём курс
+About the course
 
-Production-Grade Python for MLOps — это open-source курс о том, как выйти за пределы vibe coding и научиться писать Python, который выдерживает реальную эксплуатацию в ML-системах.
+Production-Grade Python for MLOps is an open-source course (currently in development) that addresses a growing gap between how code is produced and how it needs to operate in real systems.
 
-Быстро сгенерировать код сегодня стало проще. Но в MLOps проблема почти никогда не в том, как написать что-то “вроде работающее”. Проблема в том, как сделать так, чтобы этот код был воспроизводимым, тестируемым, наблюдаемым, поддерживаемым и пригодным для CI/CD, production jobs, сервисов и командной разработки.
+As AI-assisted development and “vibe coding” make it easier than ever to generate working code, the challenge in MLOps is no longer writing something that runs — it’s building systems that are reliable, reproducible, and maintainable under real-world conditions.
 
-Поэтому курс сфокусирован не на “ещё одном введении в Python”, а на инженерной базе, которая нужна, чтобы превращать notebook-style и AI-assisted код в надёжные Python-компоненты для реальных ML-процессов.
+This course focuses on the engineering foundations required to move from experimentation to production. It is not another introduction to Python, but a practical guide to turning notebook-style and AI-assisted code into robust, production-grade components.
 
-В курсе разбираются структура проекта, зависимости, конфигурация, тестирование, типизация, проверки данных, логирование, переиспользование кода и подготовка Python-компонентов к работе в реальных ML-системах.
+It covers project structure, dependency management, configuration, testing, typing, data validation, logging, and code reuse — all through the lens of real ML systems and platform constraints.
 
-Для тех, кто приходит из DevOps, SRE или platform engineering и пока не очень уверенно пишет на Python, в курсе есть опциональный подготовительный модуль.
+A key emphasis of the course is that fundamental computer science and programming concepts remain essential. As tooling becomes more powerful, the ability to reason about systems, dependencies, and failure modes becomes even more critical — not less.
+
+Looking ahead, the role of engineers in MLOps is shifting — from writing code to designing systems that can be trusted in production. This requires not only tools, but a deeper understanding of how software behaves under scale, change, and failure.
+
+The course is designed for practitioners working with ML systems, as well as engineers from DevOps, SRE, and platform engineering backgrounds who want to build stronger Python fundamentals in a production context.
 
 ## Course Goals
 - Write clean, reliable production Python code.  
