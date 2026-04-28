@@ -1,0 +1,9 @@
+[project]
+name = "cli-tool-example"
+version = "0.1.0"
+description = "Minimal CLI example for the Production-Grade Python for MLOps course"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

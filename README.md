@@ -1,30 +1,68 @@
-# Production-Grade Python for MLOps — Course
+# Production-Grade Python for MLOps
 
-About the course
+**How to build reliable ML services, jobs, and pipelines in Python**
 
-Production-Grade Python for MLOps is an open-source course (currently in development) that addresses a growing gap between how code is produced and how it needs to operate in real systems.
+**English** | [Русская версия](README.ru.md)
 
-As AI-assisted development and “vibe coding” make it easier than ever to generate working code, the challenge in MLOps is no longer writing something that runs — it’s building systems that are reliable, reproducible, and maintainable under real-world conditions.
+An open-source course about writing Python for real ML systems — not only for notebooks and fast prototypes, but for components that need to be tested, maintained, deployed, and operated in production.
 
-This course focuses on the engineering foundations required to move from experimentation to production. It is not another introduction to Python, but a practical guide to turning notebook-style and AI-assisted code into robust, production-grade components.
+---
 
-It covers project structure, dependency management, configuration, testing, typing, data validation, logging, and code reuse — all through the lens of real ML systems and platform constraints.
+## Why this course exists
 
-A key emphasis of the course is that fundamental computer science and programming concepts remain essential. As tooling becomes more powerful, the ability to reason about systems, dependencies, and failure modes becomes even more critical — not less.
+Writing Python has become easier.
 
-Looking ahead, the role of engineers in MLOps is shifting — from writing code to designing systems that can be trusted in production. This requires not only tools, but a deeper understanding of how software behaves under scale, change, and failure.
+AI coding assistants can generate scripts, service scaffolding, pipeline steps, and boilerplate much faster than before. But in MLOps, the real challenge is rarely how to produce code quickly. The harder problem is how to make that code reliable once it becomes part of a larger system.
 
-The course is designed for practitioners working with ML systems, as well as engineers from DevOps, SRE, and platform engineering backgrounds who want to build stronger Python fundamentals in a production context.
+That means reproducibility, dependency control, configuration management, validation, testing, logging, maintainability, packaging, and clean interfaces between components.
 
-## Course Goals
-- Write clean, reliable production Python code.  
-- Master architectural patterns used in MLOps.  
-- Build ML inference APIs, pipelines, and utilities.  
-- Learn testing, CI/CD, and monitoring.  
-- Work with real ML infrastructure: S3, Kafka, Airflow, Prometheus, Docker.
+This course is about that transition:
 
-## Contributions
-Pull Requests and Issues are welcome.
+**from notebook-style and AI-assisted code to production-grade Python for MLOps.**
+
+---
+
+## What this course covers
+
+The course focuses on the engineering layer behind real ML systems. It covers Python project structure for ML-oriented code, environments and dependency management, configuration patterns, functions, classes, interfaces, testing, typing, validation, logging, error handling, CLI tools, batch jobs, service wrappers, packaging, reuse, and production readiness.
+
+The goal is not to teach “more Python” for its own sake, but to show how raw ML-oriented code can be turned into components that are easier to understand, test, reuse, deploy, and operate.
+
+---
+
+## Who this course is for
+
+This course is designed for ML engineers, MLOps engineers, platform engineers, DevOps and SRE engineers moving closer to ML systems, and technically strong data scientists who want to write more production-ready Python.
+
+If you already know basic Python, you can start with the main track. If your background is stronger in infrastructure than in Python, the course also includes an optional preparation module: **Python essentials for MLOps engineers**.
+
+---
+
+## How the repository is organized
+
+The repository is structured as two language versions of the course with a shared set of runnable examples and reusable templates. The main course content lives in `course/`, code examples are collected in `examples/`, starter templates are stored in `templates/`, and shared diagrams and visuals are kept in `assets/`.
+
+You can start here: [English course overview](course/en/README.md), [Русская версия курса](course/ru/README.md), [Examples](examples/README.md), [Templates](templates/README.md).
+
+---
+
+## Learning approach
+
+The course follows a practical progression: from rough ML-oriented Python scripts to more structured, testable, reusable, and operationally reliable components.
+
+Throughout the course, learners will work with the forms of Python code that appear most often in real ML environments: jobs, services, validation steps, internal tools, configuration layers, and reusable Python modules.
+
+---
+
+## Current status
+
+This course is in active development. The overall repository structure is already defined, and the first modules are being published incrementally. Over time, the course will expand with additional examples, templates, and practice-oriented materials.
+
+---
+
+## Contributing
+
+Suggestions, corrections, and improvements are welcome. If you work in MLOps, ML infrastructure, platform engineering, or production AI systems and would like to improve the material, feel free to open an issue or start a discussion.
 
 ## ⭐ Support the project
 If you find this project useful — please give it a ⭐
